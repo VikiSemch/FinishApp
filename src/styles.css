@@ -9,8 +9,7 @@ h2 {
 }
 
 body {
-  font-family: Luminari,
-    fantasy;
+  font-family:capitalize;
   padding: 20px;
   margin: 0;
   background: radial-gradient(circle at 10% 20%,
