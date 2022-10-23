@@ -25,119 +25,118 @@
     <title>Weather</title>
   </head>
   <body>
-    <div class="wrapper"
     <div class="container">
-      <div class="weartherApp">
-        <form id="search-form">
-          <div class="row Search">
-            <div class="col-8">
-              <input
-                type="search"
-                id="search-input"
-                placeholder="Enter a city..."
-                class="control-search-input"
-                autocomplete="off"
-              />
-            </div>
-            <div class="col-3">
-              <input
-                type="submit"
-                class="btn btn-primary w-100"
-                id="Search"
-                value="Search"
-              />
-            </div>
+      <form id="search-form">
+        <div class="row Search">
+          <div class="col-8">
+            <input
+              type="search"
+              id="search-input"
+              placeholder="Enter a city..."
+              class="control-search-input"
+              autocomplete="off"
+            />
           </div>
-        </form>
-        <div class="row info">
-          <div class="col-sm-3">
-            <div class="card-title-city">
-              <br />
-              <h1><strong class="location" id="cityname"></strong></h1>
-              <snap id="date"> </snap>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="icon">
-              <img src="" id="icon" alt="Partly cloudy" />
-              <span id="descrition"></span>
-            </div>
-          </div>
-          <div class="col-sm-3"></div>
-          <div class="col-sm-3">
-            <h5>
-              <strong id="temperature"> </strong>
-              <span class="units">
-                <a href="#" id="cilsius-link">°C |</a>
-                <a href="#" id="fahrenheit-link">°F</a>
-              </span>
-              <br />
-              <div>Humidity: <strong id="Humidity"></strong> %</div>
-              <div>Wind: <strong id="Wind"></strong> km/h</div>
-            </h5>
+          <div class="col-3">
+            <input
+              type="submit"
+              class="btn btn-primary w-100"
+              id="Search"
+              value="Search"
+            />
           </div>
         </div>
-        <div class="weather forecast" id="forecast">
-          <div class="row">
-            <div class="col-2day">
-              <div class="Forecast-date">Mon</div>
-              <img src="" id="icon" alt="" width="45" />
-              <div clas="forecast-temperature">
-                <span class="forecast-temperature-max">°C/</span>
-                <span class="forecast-temperature-min">°C</span>
-              </div>
+      </form>
+      <div class="row info">
+        <div class="col-sm-3">
+          <div class="card-title-city">
+            <br />
+            <h1><strong class="location" id="cityname"></strong></h1>
+            <snap id="date"> </snap>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="icon">
+            <img src="" id="icon" alt="Partly cloudy" />
+            <span id="descrition"></span>
+          </div>
+        </div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3">
+          <h5>
+            <strong id="temperature"> </strong>
+            <span class="units">
+              <a href="#" id="cilsius-link">°C |</a>
+              <a href="#" id="fahrenheit-link">°F</a>
+            </span>
+            <br />
+            <div>Humidity: <strong id="Humidity"></strong> %</div>
+            <div>Wind: <strong id="Wind"></strong> km/h</div>
+          </h5>
+        </div>
+      </div>
+      <div class="weather forecast" id="forecast">
+        <div class="row">
+          <div class="col-2day">
+            <div class="Forecast-date">Mon</div>
+            <img src="" id="icon" alt="" width="45" />
+            <div clas="forecast-temperature">
+              <span class="forecast-temperature-max">°C/</span>
+              <span class="forecast-temperature-min">°C</span>
             </div>
-            <div class="col-2day">
-              <div class="Forecast-date">Tue</div>
-              <img src="" id="icon" alt="" width="45" />
-              <div clas="forecast-temperature">
-                <span class="forecast-temperature-max">°C/</span>
-                <span class="forecast-temperature-min">°C</span>
-              </div>
+          </div>
+          <div class="col-2day">
+            <div class="Forecast-date">Tue</div>
+            <img src="" id="icon" alt="" width="45" />
+            <div clas="forecast-temperature">
+              <span class="forecast-temperature-max">°C/</span>
+              <span class="forecast-temperature-min">°C</span>
             </div>
-            <div class="col-2day">
-              <div class="Forecast-date">Wed</div>
-              <img src="" id="icon" alt="" width="45" />
-              <div clas="forecast-temperature">
-                <span class="forecast-temperature-max">°C/</span>
-                <span class="forecast-temperature-min">°C</span>
-              </div>
+          </div>
+          <div class="col-2day">
+            <div class="Forecast-date">Wed</div>
+            <img src="" id="icon" alt="" width="45" />
+            <div clas="forecast-temperature">
+              <span class="forecast-temperature-max">°C/</span>
+              <span class="forecast-temperature-min">°C</span>
             </div>
-            <div class="col-2day">
-              <div class="Forecast-date">Thu</div>
-              <img src="" id="icon" alt="" width="45" />
-              <div clas="forecast-temperature">
-                <span class="forecast-temperature-max">°C/</span>
-                <span class="forecast-temperature-min">°C</span>
-              </div>
+          </div>
+          <div class="col-2day">
+            <div class="Forecast-date">Thu</div>
+            <img src="" id="icon" alt="" width="45" />
+            <div clas="forecast-temperature">
+              <span class="forecast-temperature-max">°C/</span>
+              <span class="forecast-temperature-min">°C</span>
             </div>
-            <div class="col-2day">
-              <div class="Forecast-date">Fri</div>
-              <img src="" id="icon" alt="" width="45" />
-              <div clas="forecast-temperature">
-                <span class="forecast-temperature-max">°C/</span>
-                <span class="forecast-temperature-min">°C</span>
-              </div>
+          </div>
+          <div class="col-2day">
+            <div class="Forecast-date">Fri</div>
+            <img src="" id="icon" alt="" width="45" />
+            <div clas="forecast-temperature">
+              <span class="forecast-temperature-max">°C/</span>
+              <span class="forecast-temperature-min">°C</span>
             </div>
-            <div class="col-2day">
-              <div class="Forecast-date">Sat</div>
-              <img src="" id="icon" alt="" width="45" />
-              <div clas="forecast-temperature">
-                <span class="forecast-temperature-max">°C/</span>
-                <span class="forecast-temperature-min">°C</span>
-              </div>
+          </div>
+          <div class="col-2day">
+            <div class="Forecast-date">Sat</div>
+            <img src="" id="icon" alt="" width="45" />
+            <div clas="forecast-temperature">
+              <span class="forecast-temperature-max">°C/</span>
+              <span class="forecast-temperature-min">°C</span>
             </div>
           </div>
         </div>
       </div>
-      <small>
-        <a href="https://github.com/VikiSemch/FinishApp" target="_blank">
-          Open-source code
-        </a>
-        by VikiSemch
-      </small>
+
+      <footer>
+        <small>
+          <a href="https://github.com/VikiSemch/FinishApp" target="_blank">
+            Open-source code
+          </a>
+          by VikiSemch
+        </small>
+      </footer>
     </div>
     <script src="src/index.js"></script>
-  </div>
   </body>
 </html>
