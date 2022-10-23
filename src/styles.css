@@ -17,7 +17,6 @@ body {
       rgb(137, 210, 253) 0%,
       rgb(255, 241, 188) 90%);
 }
-
 li {
   list-style: none;
   margin: 0;
@@ -30,7 +29,6 @@ footer {
   padding-top: 15px;
   margin: auto;
 }
-
 .container {
   background: cornsilk;
   max-width: 600px;
